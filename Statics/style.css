@@ -1,69 +1,43 @@
-body {
-    font-weight: bold ;
-      background-image: url('bg.jpg');
+body{
+  background-color: grey;
+  font-family: sans-serif;
+}
 
-    color:yellow
-      }
-.header{
-    background-color:black;
-    opacity:0.5
-    }
-#h11,.header{
-            color:yellow;
-            height:15%;
-            width:50%;
-            border-radius:5px;
-            text-align:center;
-            position:absolute;
-            top:20%;
-            left:30%;
-            }
-.v101{
-    background-color:gray;
-    opacity:0.8
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #203c3b;
+}
 
-    }
-.paragraph,.v101{
-            height:40%;
-            width:50%;
-            border-radius:5px;
-            text-align:center;
-            position:absolute;
-            top:35%;
-            left:30%
-            }
-#email,#pass{
-    border:none;
-    outline:none;
-    position: absolute;
-    right: 120px;
-    width:40%;
-    border-radius:60px;
-            }
-#bg{
-    position: absolute;
-    left: 20px;
-    width:30%;
-    color:yellow;
-    border: 2px solid yellow;
-    }
-.button {
-  background-color: grey; /* Green */
-  border: none;
-  color: Yellow;
-  padding: 15px 32px;
+li {
+  display: inline;
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #447270;
+}
+
+li a {
+  display: block;
+  color: black;
   text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border: 2px solid yellow;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #6b9493;
 }
 
 
-.button:hover {
+.header{
+  width: 100%;
+  height: 6%;
   background-color: yellow;
-  color: white;
 }
-#email:hover,#pass:hover{
-    background-color:yellow;
-    color:black}
