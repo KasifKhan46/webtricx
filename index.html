@@ -1,17 +1,19 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Webtricx</title>
-    <link rel="stylesheet" type="text/css" href="Statics/style.css">
-    <script src="Statics/javascript.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Page</title>
+<link rel="stylesheet" href="Statics/style.css">
 </head>
 <body>
-    <div class="header">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li id="h_log" style="float: right;"><a href="login.html">Log-In</a></li>
-            <li id="h_reg" style="float: right;"><a href="register.html">Register</a></li>
-            <li id="h_pro" style="float: right;" ><a href="profile.html">Profile</a></li>
-          </ul>
-    </div>
+<div class="login-container">
+<h2>Login</h2>
+<input type="text" id="username" placeholder="Username">
+<input type="password" id="password" placeholder="Password">
+<button onclick="login()">Login</button>
+<p id="message"></p>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
